@@ -1,0 +1,80 @@
+:root {
+  --accent: #e4572e;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #222;
+  background: #fafafa;
+}
+
+header {
+  background: var(--accent);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 6px;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 150px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 30px 10px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input {
+  padding: 9px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
